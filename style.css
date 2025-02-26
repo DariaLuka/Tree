@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: black;
+ touch-action: manipulation; /* Allows taps & UI interactions */
 }
 canvas {
   display: block;
